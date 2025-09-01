@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0
+    boxsizingborder-box;
+}
+
+.bg{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+     display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.card{
+    height:300px;
+    width:400px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
