@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.parent{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+  width:300px;
+  height:200px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 4px black ;
+
+}
+.btn{
+    width:100px;
+    height:30px;
+    border-radius: 8px;
+    box-shadow: -4px 3px 4px black ;
+}
+
+.text{
+    box-shadow: -4px 3px 4px black;
+    border: none; 
+}
